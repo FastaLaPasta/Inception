@@ -1,4 +1,5 @@
-FROM debian:buster
+FROM debian:buster 
+#REMEMBER TO TRY WITH BULLSEYES
 
 RUN apt-get update \
     && apt-get upgrade -y \
