@@ -19,5 +19,3 @@ wp user create --allow-root leBgQuiMeCorrige lebg@gmail.com --porcelain\
 
 mkdir -p /run/php
 /usr/sbin/php-fpm7.3 -F
-
-
