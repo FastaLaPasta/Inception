@@ -2,7 +2,7 @@
 
 #IF LE FICHIER N'existe PAS A RAJOUTER
 
-sleep 10;
+sleep 20;
 cd /var/www/wordpress
 wp config create	--allow-root \
     --dbname=$SQL_DATABASE \
