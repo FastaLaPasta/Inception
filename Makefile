@@ -8,7 +8,7 @@ down:
 
 fclean: down
 	sudo docker rmi -f $$(sudo docker images -q)
-	sudo rm -rf /home/boulogne/data/wordpress && mkdir /home/boulogne/data/wordpress
-	sudo rm -rf /home/boulogne/data/mariadb && mkdir /home/boulogne/data/mariadb
+	sudo rm -rf /home/sboulogne/data/wordpress && mkdir -p /home/sboulogne/data/wordpress
+	sudo rm -rf /home/sboulogne/data/mariadb && mkdir -p /home/sboulogne/data/mariadb
 
 .PHONY: all down fclean

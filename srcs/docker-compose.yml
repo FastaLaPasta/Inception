@@ -52,13 +52,13 @@ volumes:
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: '/home/boulogne/data/wordpress'
+      device: '/home/sboulogne/data/wordpress'
   mariadb:
     driver: local
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: '/home/boulogne/data/mariadb'
+      device: '/home/sboulogne/data/mariadb'
 
 networks:
   inception:
